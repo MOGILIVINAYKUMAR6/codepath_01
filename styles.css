@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #1c87c9;
+}
+
+/* Header Styles */
+header {
+    background: #1c87c9;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    background: #f7b733;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #f78c33;
+}
+
+/* About Section */
+#about {
+    padding: 3rem 0;
+    background: #f4f4f4;
+}
+
+/* Resources Section */
+#resources {
+    padding: 3rem 0;
+}
+
+.resource-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resource {
+    width: 30%;
+    background: white;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resource h3 {
+    color: #1c87c9;
+}
+
+.resource a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f7b733;
+    text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+    padding: 3rem 0;
+    background: #f4f4f4;
+}
+
+form {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: #1c87c9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #135f8d;
+}
+
+/* Footer */
+footer {
+    background: #1c87c9;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
